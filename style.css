@@ -1,20 +1,37 @@
-body{
+body {
     background: #000;
-    
+
 }
 
-h1{
-    color: whitesmoke;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+.header {
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+    width: 50%;
+    margin-top: 1%;
+    background: linear-gradient(to right, #00ffff 0%, #330867 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.heading {
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
     font-size: 75px;
     font-style: italic;
-    position: absolute; 
-    margin-top: 1%; 
-    text-align: center; 
-    width: 50%; 
-    margin-left: 25%; 
-    margin-right: 25%;
-    background: linear-gradient(to right, #30CFD0 0%, #330867 100%);
-    -webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
+    font-weight: bolder;
+}
+
+.subheading {
+    display: flex;
+    width: 59%;
+    justify-content: flex-end;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
 }
