@@ -17,6 +17,7 @@ body {
     background: linear-gradient(to right, #00ffff 0%, #330867 100%);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+    background-color: aliceblue;
 }
 
 .heading {
@@ -35,3 +36,84 @@ body {
     font-style: italic;
     font-weight: bolder;
 }
+
+.buttontitle{
+    margin-top: 2%;
+    display: flex;
+    color: #f5f5f5;
+    font-family: 'Franklin Gothic Medium', Arial, sans-serif;
+    font-size: 25px;
+    font-style: italic;
+    font-weight: bolder;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.buttonflex{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    margin-left: 25%;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.button {
+    background-color: transparent;
+    border: black;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 16px 25px;
+    cursor: pointer;
+    transition-duration: 0.4s;
+    cursor: pointer;
+  }
+
+  .button-ttc-red {
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid red;
+  }
+  
+  .button-ttc-red:hover {
+    background-color: red;
+    color: white;
+  }
+
+  .button-ttc-blue{
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid blue;
+  }
+  
+  .button-ttc-blue:hover {
+    background-color: blue;
+    color: white;
+  }
+  
+  .button-ttc-green{
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid green;
+  }
+  
+  .button-ttc-green:hover {
+    background-color: green;
+    color: white;
+  }
+
+  .button-ttc-yellow{
+    background-color: transparent; 
+    color: white; 
+    border: 2px solid yellow;
+  }
+  
+  .button-ttc-yellow:hover {
+    background-color: yellow;
+    color: black;
+  }
