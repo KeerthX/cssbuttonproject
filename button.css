@@ -220,7 +220,48 @@
     right: 100;
     width: 100%;
   }
+
+    /* Border Fill to Border  (button-ftb-{Border-type}) */
   
+  .button-ftb-solid{
+    background: white;
+    color: #000;
+    border: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-ftb-solid:hover {
+    border-color: white;
+    border-style: solid;
+    background: black;
+    color: white;
+  }
+  .button-ftb-dash{
+    background: white;
+    color: #000;
+    border: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-ftb-dash:hover {
+    border-color: white;
+    border-style: dashed;
+    background: black;
+    color: white;
+  }
+  .button-ftb-dotted{
+    background: white;
+    color: #000;
+    border: transparent;
+    transition: all 0.3s ease-in-out;
+  }
+  
+  .button-ftb-dotted:hover {
+    border-color: white;
+    border-style: dotted;
+    background: black;
+    color: white;
+  }
   
   
   
