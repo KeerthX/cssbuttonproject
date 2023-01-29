@@ -221,7 +221,7 @@
     width: 100%;
   }
 
-    /* Border Fill to Border  (button-ftb-{Border-type}) */
+    /* Border Fill to Border  (button-ftb-{border-type}) */
   
   .button-ftb-solid{
     background: white;
@@ -240,7 +240,7 @@
     background: white;
     color: #000;
     border: transparent;
-    transition: all 0.3s ease-in-out;
+
   }
   
   .button-ftb-dash:hover {
@@ -263,7 +263,64 @@
     color: white;
   }
   
+  /* Border move to direction  (button-move-{direction}) */
+
+  .button-move-right{
+    background: white;
+    color: black;
+  }
   
+  .button-move-right span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
   
+  .button-move-right span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -10px;
+    transition: 0.5s;
+  }
+
+  .button-move-right:hover span {
+    padding-right: 15px;
+  }
   
+  .button-move-right:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+
+  .button-move-left{
+    background: white;
+    color: black;
+  }
+
+  .button-move-left span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+  }
   
+  .button-move-left span:after {
+    content: '«';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    left: -10px;
+    transition: 0.5s;
+  }
+
+  .button-move-left:hover span {
+    padding-left: 15px;
+  }
+  
+  .button-move-left:hover span:after {
+    opacity: 1;
+    left: 0;
+  }
