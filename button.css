@@ -7,7 +7,7 @@
     text-decoration: none;
     display: inline-block;
     font-size: 16px;
-    margin: 16px 25px;
+    margin: 16px 30px;
     cursor: pointer;
     transition-duration: 0.4s;
     cursor: pointer;
@@ -324,3 +324,45 @@
     opacity: 1;
     left: 0;
   }
+
+  /* Grow (button-grow-{scale}) */
+  .button-grow-2 {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-grow-2:hover {
+    transform: scale(1.25);
+  }
+
+  .button-grow-3 {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-grow-3:hover {
+    transform: scale(1.50);
+  }
+
+  .button-grow-4 {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-grow-4:hover {
+    transform: scale(1.75);
+  }
+
+  .button-grow-5 {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-grow-5:hover {
+    transform: scale(1.80);
+  }
+  
