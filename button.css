@@ -365,4 +365,81 @@
   .button-grow-5:hover {
     transform: scale(1.80);
   }
+
+  /* Rotate button-rotate-{direction} */
+  .button-rotate-x {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
   
+  .button-rotate-x:hover {
+    transform: rotateX(180deg);
+  }
+
+  .button-rotate-y {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-rotate-y:hover {
+    transform: rotateY(180deg);
+  }
+
+  .button-rotate-z {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-rotate-z:hover {
+    transform: rotateZ(180deg);
+  }
+
+  /* Translate button-translate-{axis}-{direction} */
+  .button-translate-x-r {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-translate-x-r:hover {
+    transform: translateX(10px);
+    background-color: aqua;
+  }
+
+  .button-translate-x-l {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-translate-x-l:hover {
+    transform: translateX(-10px);
+    background-color: aqua;
+  }
+
+  .button-translate-y-d {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-translate-y-d:hover {
+    transform: translateY(10px);
+    background-color: aqua;
+  }
+
+  .button-translate-y-u {
+    background-color: #20262E;
+    color: white;
+    transition-duration: 300ms;
+  }
+  
+  .button-translate-y-u:hover {
+    transform: translateY(-10px);
+    background-color: aqua;
+  }
+
+

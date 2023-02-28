@@ -54,13 +54,13 @@ body {
 .buttonflex {
   display: flex;
   width: 50%;
-  margin-left: 25%;
-  margin-left: 25%;
+  margin-left: auto;
+  margin-right: auto;
   margin-bottom: 10px;
   justify-content: center;
   flex-wrap: wrap;
-  /* background-color: #330867; */
   align-items: center;
+  padding: 20px;
 }
 
 .footer{
